@@ -1,0 +1,4 @@
+.Footer {
+    background-color: #362416;
+    grid-column: full-start / full-end;
+}

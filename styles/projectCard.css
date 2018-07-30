@@ -1,0 +1,45 @@
+.ProjectCard {
+   height: 100%;
+   width: 100%;
+   
+}
+/* LEFT */
+.first {
+    background-color: red;
+    grid-column: 1 / span 1;
+}
+
+.second {
+    background-color: lime;
+    grid-column: 2 / span 1;
+}
+
+.third {
+    background-color: aquamarine;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+}
+
+/* RIGHT */
+.fourth {
+    background-color: blue;   
+    grid-column: 1 / span 2;   
+    
+}
+.fifth {
+    background-color: pink;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+.six {
+    background-color: yellow;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+.seven {
+    background-color: khaki;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+}
+
+

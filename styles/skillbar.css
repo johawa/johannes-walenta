@@ -1,0 +1,16 @@
+.Container {
+    width: 100%;
+    background-color: #ddd;
+    margin: 10px;
+    border-radius: 1000px;
+    height: 1.6rem;
+}
+
+.Skills {
+    text-align: right;
+    border-radius: 1000px;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+    height: 100%;
+}

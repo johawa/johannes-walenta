@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.Body {
+    background-color: #EEEEEE;
+    color: rgb(0, 0, 0);
+}
+
+
+/* COLORS 
+
+
+#CFCDB4 // BEIGE
+#362416 // DARK LIGHT
+#1A0B07 // DARK 
+#E0D2C5 // PINK
+#1F3447 //DARK BLUE
+#6D8EAD //BLUE
+
+*/

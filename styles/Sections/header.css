@@ -1,0 +1,12 @@
+.Header {
+    background-color: #6D8EAD;
+    grid-column: full-start / full-end;
+   
+}
+
+.Angle {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}

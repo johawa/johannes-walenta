@@ -1,0 +1,18 @@
+.Frameworks {
+    background-color: #CFCDB4;
+    grid-column: full-start / full-end;
+}
+
+.GridHeader {
+    background-color: orangered;
+    grid-column: 1 / -1;    
+}
+
+@supports(display: grid) {
+    .Frameworks {
+        display: grid;       
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        grid-gap: 6rem;
+        align-items: start;
+    }
+}

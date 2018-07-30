@@ -1,0 +1,24 @@
+.Projects__Left {
+    /* background-color: #E0D2C5; */
+    grid-column: full-start / col-end 4;
+    display: grid;
+    grid-template: repeat(3, 25rem) /repeat(2, 1fr);
+    grid-gap: 2vw;
+}
+
+.Projects__Right {
+    /* background-color: #E0D2C5; */
+    grid-column: col-start 5 / full-end;
+    display: grid;
+    grid-template: repeat(3, 25rem) / repeat(2, 1fr);
+    grid-gap: 2vw;
+}
+
+@media only screen and (max-width: 480px) {
+    .Projects__Left {
+        grid-column: full-start / full-end;
+    }
+    .Projects__Right {
+        grid-column: full-start / full-end;
+    }
+}

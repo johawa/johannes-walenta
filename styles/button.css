@@ -1,0 +1,26 @@
+.Button {
+    color: white;
+    font-weight: 700;
+    pointer-events: all;
+    height: 50px;
+    font-size: 18px;
+    margin-right: 24px;
+    background: black;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 24px;
+}
+
+.ButtonSvg {
+    height: 18px;
+    margin-left: 16px;
+    vertical-align: middle;
+}
+
+.ButtonSvg {
+    transform: translateX(0%);
+    transition: -webkit-transform 0.15s linear; 
+    transform: 0.15s linear;
+}
