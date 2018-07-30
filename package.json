@@ -2,28 +2,21 @@
   "name": "johanneswalentanext",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timebasher/johannes-walenta"
-  },
-  "keywords": [
-    "react",
-    "ssr",
-    "server-side-rendering"
-  ],
+  "main": "index.js",  
+    "scripts": {
+      "start": "next start -p $PORT",
+      "postinstall": "heroku-nextjs-build"
+    },
+    "engines": {
+      "node": "6.9.1"
+    },
+    "cacheDirectories": [
+      "nextjs/node_modules"
+    ],  
   "author": "Johannes Walenta",
   "license": "ISC",
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^2.0.0",
     "@zeit/next-css": "^0.2.0",
     "css-loader": "^0.28.11",
     "next": "^6.1.1",
